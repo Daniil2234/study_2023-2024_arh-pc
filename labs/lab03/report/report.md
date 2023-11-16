@@ -16,7 +16,7 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 toc: true # Table of contents
 toc-depth: 2
 lof: true # List of figures
-lot: true # List of tables
+lot: false # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -56,7 +56,6 @@ figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
 lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -94,7 +93,13 @@ header-includes:
 
 ![Открытие report.md](image/6.jpeg){#fig:006 width=100%}
 
+# Задание для самостоятельной работы
 
+1) Выполним в соответствующем каталоге отчёт по лабораторной работе №2 в формате Markdown. После чего загружаем файлы на github (рис. @fig:007 @fig:008).
+
+![Загрузка файлов на github](image/7.jpeg){#fig:007 width=100%}
+
+![Загрузка файлов на github](image/8.jpeg){#fig:008 width=100%}
 
 # Выводы
 В ходе выполнения лабораторной работы №3 мы освоили процедуры оформления отчётов с помощью легковесного языка разметки Markdown.
